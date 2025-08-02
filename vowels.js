@@ -1,8 +1,8 @@
-let str= "Bangladesh";
+let str= "Aerobaticbacteria";
 let vowl = 0;
 for(let i=0; i<str.length; i++){
     let char=str.charAt(i).toLowerCase();
-    if(char>='a'  && char<='z' && !'bcdfghjklmnpqrstvwxyz'.includes(char)){
+    if(char>='a'  && char<='z' && !'bcdefghijklmnopqrstvwxyz'.includes(char)){
         vowl++;
 
     }
